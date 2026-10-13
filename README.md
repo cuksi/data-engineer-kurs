@@ -9,3 +9,6 @@ Kao buduca referenca
 
 ### O kursu
 - Data Engineer kurs - 2 cas u 1 nedelji
+
+## Dodat .gitignore
+- da preskace fajlove sa ekstenzijom .csv
