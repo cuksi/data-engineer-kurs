@@ -6,3 +6,6 @@ Kao buduca referenca
 
 1) Pull request
 2) Merge request
+
+### O kursu
+- Data Engineer kurs - 2 cas u 1 nedelji
