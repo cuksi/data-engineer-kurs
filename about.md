@@ -3,3 +3,5 @@
 ## Podnaslov
 
 - Prvi krug
+- Drugi krug
+- Treci krug
