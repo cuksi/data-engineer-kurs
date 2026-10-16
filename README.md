@@ -8,14 +8,14 @@
 
 ## Folder Predavanja
 This folder contains all work and exercises from live clases.
-### *Github part
+### Github part
 #### Folder Nedelja 01 - cas 02  
     Topics that was mentioned in Folder Nedelja 01 - cas 02 are:
         - Creating repositroy, add, commit and push to main branch
         - Creating secondary branches, creating pull request, commenting, merging with main branch and deleting unsued secondary branches
         - Creating .gitignore and restore of files
 ### --------------------------------------------------------------------------------------------------------
-### *SQL part (all SQL code is wirrten in Spark engine on website databricks.com)
+### SQL part (all SQL code is wirrten in Spark engine on website databricks.com)
 #### Folder Nedelja 01 - cas 03  
     Topics that was mentioned in Folder Nedelja 01 - cas 03 are:
         - Type of data: INT, BIGINT, DECIMAL, STRING, DATE, TIMESTAMP, BOOLEAN
