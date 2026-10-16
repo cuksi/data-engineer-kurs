@@ -22,3 +22,9 @@ This folder contains all work and exercises from live clases.
         - SQL commands: FROM, SELECT, DISTINCT, ORDER BY, LIMIT
         - Basic mathematical operations: + , - , / , * , < , <= , > , >=
         - Few logic operations: AND, OR
+#### Folder Nedelja 01 - cas 04  
+    Topics that was mentioned in Folder Nedelja 01 - cas 04 are:
+        - SQL Filter commands: In, BETWEEN, LIKE, ILIKE
+        - SQL operations with NULL (IS NULL, COALESCE)
+        - Modify String in SQL (length, upper and lower letters, upper first letter, CONCAT, search Partial part of string)
+        - SQL operations with date, time, month, hour, day
