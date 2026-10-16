@@ -2,7 +2,7 @@
 SELECT 
     *,
     stadium_capacity - attendance AS empty_seats
-FROM bootcamp.northern_star.matches_flat ORDER BY empty_seats DESC LIMIT 3;
+FROM bootcamp.northern_star.matches_flat ORDER BY empty_seats DESC LIMIT 5;
 -- Za prva tri rezultata zajednička su polja: 
 -- season= 2024/25; home_team_id= 11; home_team= Oakfield Town; home_team_code= OKT; 
 -- stadium_name= National Stadium; stadium_city= Centralia; stadium_capacity= 80000; 
