@@ -4,7 +4,7 @@ SELECT
     stadium_capacity - attendance AS empty_seats
 FROM bootcamp.northern_star.matches_flat ORDER BY empty_seats DESC LIMIT 5;
 -- Za prva tri rezultata zajednička su polja: 
--- season= 2024/25; home_team_id= 11; home_team= Oakfield Town; home_team_code= OKT;
+-- season= 2024/25; home_team_id= 11; home_team= Oakfield Town; home_team_code= OKT; 
 -- stadium_name= National Stadium; stadium_city= Centralia; stadium_capacity= 80000; 
 -- weather= clear; home_manager= Oleg Luzhny; away_red_cards= 0; first_goal_added_time= null;
 
@@ -18,7 +18,7 @@ WHERE home_team = 'Riverton Athletic';
 
 -- 3 zadatak
 SELECT 
-    home_team, away_team, home_goals_ht,  away_goals_ht, home_goals, away_goals,
+    home_team, away_team, home_goals_ht, away_goals_ht, home_goals, away_goals,
     home_goals - away_goals AS gols_diff
 FROM bootcamp.northern_star.matches_flat
 WHERE away_goals_ht > home_goals_ht AND ((home_goals - away_goals) > 0 );
@@ -38,7 +38,7 @@ SELECT
     season, home_team, away_team, 
     stadium_name, stadium_city, weather
 FROM bootcamp.northern_star.matches_flat
-WHERE (weather = 'fog' OR weather = 'snow') AND season = '2023/24';
+WHERE season = '2023/24' AND (weather = 'snow' OR weather = 'fog');
 -- Ukupno je odigrano 25 utakmica po snegu ili kiši.
 
 -- 6 zadatak
