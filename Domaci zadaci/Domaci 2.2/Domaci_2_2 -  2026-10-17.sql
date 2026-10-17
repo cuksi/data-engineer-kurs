@@ -31,12 +31,11 @@ WHERE length(match_report) > 40;
 SELECT
 home_team, away_team, home_goals, away_goals, kickoff_ts
 FROM matches_flat
-WHERE kickoff_ts >= '2025-01-01' AND kickoff_ts < '2025-01-16' ORDER BY kickoff_ts ASC;
+WHERE kickoff_ts >= '2025-01-01' AND kickoff_ts < '2025-01-16';
 -- Ukupno 31 utakmica
 
 -- 5 zadatak
 SELECT
-match_id, home_team, away_team,
 DATE(kickoff_ts) AS `Datum`,
 dayofweek(kickoff_ts) AS `Dan u nedelji`
 FROM matches_flat
@@ -61,9 +60,9 @@ WHERE first_goal_scorer LIKE 'A%' OR first_goal_scorer LIKE '%-%';
 -- 8 zadatak
 SELECT
 HOUR(kickoff_ts) AS `Vreme pocetka utakmice`,
-concat(home_team, ' - ', away_team) AS `Nazivi timova`
+home_team, away_team
 FROM matches_flat
-WHERE season = '2024/25'  AND HOUR(kickoff_ts) BETWEEN 18 AND 21;
+WHERE season = '2024/25' AND HOUR(kickoff_ts) BETWEEN 18 AND 21;
 -- Ukupno 12 utakmica
 
 -- 9 zadatak
@@ -77,7 +76,7 @@ WHERE year(kickoff_ts) = '2025' AND (month(kickoff_ts) IN (3, 4, 5)) AND match_r
 SELECT
 COUNT(kickoff_ts)
 FROM matches_flat
-WHERE year(kickoff_ts)= '2025' AND month(kickoff_ts) IN (3, 4, 5) AND match_report ILIKE '% win %';
+WHERE year(kickoff_ts)= '2025' AND (month(kickoff_ts) IN (3, 4, 5)) AND match_report ILIKE '% win %';
 -- Ukupno 3 utakmice, ovde ce biti prikazane utakmice samo gde postoji rec win(kao zasebna rec, nije deo neke druge reci) u match_report-u
 
 ----------------------------------------------------------------------------------
@@ -97,14 +96,14 @@ home_team, away_team,
 DATE(kickoff_ts) AS `Datum odigravanja`
 FROM matches_flat
 WHERE DATE(kickoff_ts) >= '2025-03-01' AND DATE(kickoff_ts) < '2025-04-01'
-ORDER BY DATE(kickoff_ts) ASC;
+ORDER BY `Datum odigravanja` ASC;
 -- Ukupno 40 utakmica
 
 -- 3 zadatak
 SELECT
 COUNT(kickoff_ts)
 FROM matches_flat
-WHERE DATE(kickoff_ts) >= '2024-12-19' AND DATE(kickoff_ts) < '2025-01-11';
+WHERE DATE(kickoff_ts) >= '2024-12-20' AND DATE(kickoff_ts) < '2025-01-11';
 -- Ukupno 51 utakmica
 
 -- 4 zadatak
@@ -130,7 +129,7 @@ SELECT
 DATE(kickoff_ts) AS `Datum utakmice`,
 home_team, away_team,
 CONCAT(home_goals_ht, ' : ', away_goals_ht) AS `Rezultat na poluvremenu`,
-CONCAT(home_goals, ' : ', away_goals) AS `Rezultat na kraju utakmice`
+CONCAT(home_goals, ' : ', away_goals) AS `Konačan rezultat`
 FROM matches_flat
 WHERE home_goals_ht = away_goals_ht AND NOT home_goals = away_goals;
 -- Ukupno 244 utakmice
