@@ -1,10 +1,13 @@
 # About
- This is my work from IT Bootcamp Data Engineer course 2026, in school IT Bootcamp.
+ This is my work from IT Bootcamp Data Engineer course 2026, in school IT Bootcamp.  
  # Content of folders
  ## Folder Domaci zadaci
  This folder contains my homework from course IT Bootcamp Data Engineer 2026
- - Folder Domaci 1.2 contains homework from Github fundamentals
- - Folder Domaci 2.1 contains homework from SQL foundations (all SQL code is wirrten in Spark engine on website databricks.com)  
+ ### Github homework
+ - Folder Domaci 1.2 contains homework from Github fundamentals class that is inisde Folder: Nedelja 01 - cas 02  
+ ### SQL homework
+ - Folder Domaci 2.1 contains homework from class that is inisde Folder: Nedelja 01 - cas 03  
+ - Folder Domaci 2.2 contains homework from class that is inisde Folder: Nedelja 01 - cas 04  
 
 ## Folder Predavanja
 This folder contains all work and exercises from live clases.
