@@ -1,0 +1,4 @@
+1. Prikažite klubove koji su u ulozi domaćina odigrali najmanje 10 utakmica. 
+Za svaki klub prikažite broj utakmica, ukupan broj postignutih golova i prosečan broj golova po utakmici.
+
+2. Za svaku sezonu prikažite broj utakmica u kojima je gost postigao najmanje tri gola, kao i ukupan broj golova koje su gosti postigli u tim utakmicama.
