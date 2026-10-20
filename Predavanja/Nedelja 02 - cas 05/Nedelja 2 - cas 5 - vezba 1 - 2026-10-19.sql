@@ -48,7 +48,7 @@ SELECT
 FROM matches_flat
 GROUP BY referee_name
 HAVING SUM(home_red_cards + away_red_cards) >= 5
-ORDER BY referee_name DESC;
+ORDER BY sum_red_cards DESC;
 -- Ukupno 12 sudija, Sudija Stuart Attwell-Jones je dao najvise crvenih kartona 7
 
 -- 6 zadatak
