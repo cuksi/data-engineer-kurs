@@ -131,3 +131,17 @@ SELECT
     COUNT_IF(home_goals = 0 AND away_goals = 0) AS result_0_0
 FROM matches_flat
 GROUP BY coalesce(weather, 'Nepoznato');
+
+
+-- 2 nacin za isti zadatak
+SELECT    
+        CASE WHEN weather LIKE 'clear' THEN 'clear' 
+        WHEN weather LIKE 'rain' THEN 'rain'
+        WHEN weather LIKE 'wind' THEN 'wind'
+        WHEN weather LIKE 'fog' THEN 'fog'
+        WHEN weather LIKE 'snow' THEN 'snow'
+        ELSE 'Nepoznato' END AS ukupan_broj_utakmica,
+    count(home_goals) AS ukupan_broj_utakmica,
+    COUNT_IF(home_goals = 0 AND away_goals = 0) AS result_0_0
+FROM matches_flat
+GROUP BY ukupan_broj_utakmica;
