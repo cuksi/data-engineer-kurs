@@ -7,7 +7,8 @@
  - Folder Domaci 1.2 contains homework from Github fundamentals class that is inisde Folder: Nedelja 01 - cas 02  
  ### SQL homework
  - Folder Domaci 2.1 contains homework from class that is inisde Folder: Nedelja 01 - cas 03  
- - Folder Domaci 2.2 contains homework from class that is inisde Folder: Nedelja 01 - cas 04  
+ - Folder Domaci 2.2 contains homework from class that is inisde Folder: Nedelja 01 - cas 04 
+ - Folder Domaci 2.2 contains homework from class that is inisde Folder: Nedelja 02 - cas 05   
 
 ## Folder Predavanja
 This folder contains all work and exercises from live clases.
@@ -31,3 +32,9 @@ This folder contains all work and exercises from live clases.
         - SQL operations with NULL (IS NULL, COALESCE)
         - Modify String in SQL (length, upper and lower letters, upper first letter, CONCAT, search Partial part of string)
         - SQL operations with date, time, month, hour, day
+#### Folder Nedelja 02 - cas 05  
+    Topics that was mentioned in Folder Nedelja 01 - cas 04 are:
+        - Aggregation functions commands (from many lines to one): GROUP BY, HAVING, COUNT(), SUM(), AVG(), MIN(), MAX()
+        - How NULL effects or results when we use Aggregation functions
+        - Conditional aggregation: CASE WHEN condition_1 THEN value_1 ELSE deffault_value END
+        - Common mistakes to avoid when using aggregation functions
