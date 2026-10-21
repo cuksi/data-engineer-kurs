@@ -8,7 +8,8 @@
  ### SQL homework
  - Folder Domaci 2.1 contains homework from class that is inisde Folder: Nedelja 01 - cas 03  
  - Folder Domaci 2.2 contains homework from class that is inisde Folder: Nedelja 01 - cas 04 
- - Folder Domaci 2.2 contains homework from class that is inisde Folder: Nedelja 02 - cas 05   
+ - Folder Domaci 3.1 contains homework from class that is inisde Folder: Nedelja 02 - cas 05   
+ - Folder Domaci 3.2 contains homework from class that is inisde Folder: Nedelja 02 - cas 06   
 
 ## Folder Predavanja
 This folder contains all work and exercises from live clases.
@@ -38,3 +39,9 @@ This folder contains all work and exercises from live clases.
         - How NULL effects or results when we use Aggregation functions
         - Conditional aggregation: CASE WHEN condition_1 THEN value_1 ELSE deffault_value END
         - Common mistakes to avoid when using aggregation functions
+#### Folder Nedelja 02 - cas 06  
+    Topics that was mentioned in Folder Nedelja 01 - cas 04 are:
+        - Type of SQL keys: Primary, Foreign, Complex
+        - Type of table joins in SQL: INNER, LEFT, RIGHT, FULL and CROSS
+        - Difference in using ON and WHERE condtions
+        - Common mistakes when using JOINs
