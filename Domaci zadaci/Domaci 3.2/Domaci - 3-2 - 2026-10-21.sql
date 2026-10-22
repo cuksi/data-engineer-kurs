@@ -289,10 +289,21 @@ ORDER BY ukupan_broj_gledalaca DESC;
 select * from matches where status = 'abandoned';
 
 -- 5 zadatak: Pronađite sudije koje su sudile utakmice u sezoni 2023/24, ali nisu sudile ni jednu utakmicu u sezoni 2024/25. Prikažite ime sudije i njegovu nacionalnost.
-
---NIJE ZAVRSEN, ali ce biti :D
 SELECT
-    DISTINCT referee_name
+    r.referee_id,
+    r.referee_name AS ime_sudije, 
+    r.nationality AS nacionalnost,
+    COALESCE(m.season, 'NEMA') AS sezona_u_kojoj_je_sudio
 FROM referees r
-LEFT JOIN matches m ON m.referee_id = m.referee_id AND m.season = '2023/24'
-WHERE m.referee_id IS NULL;
+LEFT JOIN matches m ON m.referee_id = r.referee_id 
+WHERE m.season IS NULL;
+-- Resenje: Ime sudije: Paul Tierney-Ross; Nacionalnost: England. Ovaj sudija nema ni jedan nastup ni u sezoni 2023/24 a ni u sezoni 2024/25 jer je poceo da sudi u sezoni 2025/26
+
+SELECT
+   DISTINCT r.referee_id, r.referee_name, r.nationality, m.season
+FROM referees r
+LEFT JOIN matches m ON m.referee_id = r.referee_id 
+WHERE m.season = '2023/24'
+ORDER BY r.referee_id ASC;
+-- Rezultat 19 sudija je sudilo u sezoni '2023/24'
+-- Da li je tacno ovako kad se radi sa dva upita i da li moze da se resi sa jednim upitom?
