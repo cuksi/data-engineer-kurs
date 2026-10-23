@@ -55,16 +55,16 @@ GROUP BY home_team
 HAVING `Broj utakmica kao domacin` >= 10;
 
 -- 6 zadatak: Za svakog sudiju prikažite ukupan broj utakmica, broj utakmica u kojima je pokazao bar jedan crveni karton i procenat takvih utakmica u odnosu na sve utakmice koje je sudio.
+-- TREBA ISPRAVKA ZADATKA
 SELECT
     referee_name,
     COUNT(referee_name) AS `Broj utakmica sudije`,
     SUM(
-        home_red_cards + away_red_cards
-    ) AS red_card_games_reff,
-    ROUND((red_card_games_reff / `Broj utakmica sudije`) * 100, 2) AS `Procenta utakmica`
+        CASE WHEN home_red_cards + away_red_cards > 0 THEN 1 ELSE 0 END  -- jedno resenje sa SUM ali preko CASE WHEN
+    ) AS red_card_games_reff
+    ROUND((red_card_games_reff / `Broj utakmica sudije`) * 100.0, 2) AS `Procenta utakmica`
 FROM matches_flat
-GROUP BY referee_name
-HAVING red_card_games_reff >= 1;
+GROUP BY referee_name;
 
 -- 7 zadatak: Za svaku sezonu prikažite broj pobeda domaćina, broj nerešenih utakmica i broj pobeda gostiju. Takođe prikažite procenat utakmica koje su završene nerešenim rezultatom.
 SELECT
@@ -72,6 +72,6 @@ SELECT
     COUNT_IF(home_goals > away_goals) AS `Pobeda domacina`,
     COUNT_IF(home_goals = away_goals) AS `Nereseno`,
     COUNT_IF(home_goals < away_goals) AS `Pobeda gostiju`,
-    ROUND((`Nereseno` / (`Pobeda domacina` + `Nereseno` + `Pobeda gostiju`)) * 100, 2) AS `Procenat neresenih`
+    ROUND((`Nereseno` / (`Pobeda domacina` + `Nereseno` + `Pobeda gostiju`)) * 100.0, 2) AS `Procenat neresenih`
 FROM matches_flat
 GROUP BY season;
