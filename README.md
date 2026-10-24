@@ -11,6 +11,7 @@
  - Folder Domaci 3.1 contains homework from class that is inisde Folder: Nedelja 02 - cas 05   
  - Folder Domaci 3.2 contains homework from class that is inisde Folder: Nedelja 02 - cas 06   
  - Folder Domaci 4.1 contains homework from class that is inisde Folder: Nedelja 02 - cas 07  
+ - Folder Domaci 4.2 contains homework with report for team Lakeside Rangers for season 2024/25  
 
 ## Folder Predavanja
 This folder contains all work and exercises from live clases.
