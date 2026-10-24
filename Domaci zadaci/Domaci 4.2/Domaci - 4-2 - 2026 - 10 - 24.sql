@@ -209,7 +209,7 @@ JOIN manager_spells_clean msc ON msc.team_id = c.team_id AND DATE(m.kickoff_ts) 
 WHERE m.season = '2024/25'
 GROUP BY c.team_id, msc.manager_name;
 
--- POMOCNI QUERYS
+-- POMOCNI QUERY
 -- select kickoff_ts, season from matches WHERE season ='2024/25' order by kickoff_ts, season; -- pocetak sezone 2024-08-17-00:00:00, kraj sezone 2025-05-18
 
 -- 6 deo zadatka: Највећа победа и најтежи пораз.
@@ -257,6 +257,7 @@ SELECT
 FROM utakmica
 ORDER BY utakmica.gol_razlika DESC LIMIT 3;
 
+-- POMOCNI QUERY
 -- select home_team_id, away_team_id, home_goals, away_goals from matches where season ='2024/25' and (home_team_id = 10 OR away_team_id = 10) order by (home_goals-away_goals) DESC;
 
 -- 7 deo zadatka: Публика: просечна посета и попуњеност на домаћим утакмицама, и колико утакмица нема податак о посети.
@@ -268,6 +269,8 @@ SELECT
     COUNT(m.match_id) AS broj_utakmica,
     AVG(m.attendance) AS prosecna_poseta,
     COUNT_IF(m.attendance IS NULL) AS nema_podatak_o_poseti,
+    
+    -- ovo ovde je dodato da ako imamo neku utakmicu a da na njoj nema zabelezena poseta tj. NULL da ne bude greska u racunu
     ROUND((SUM(m.attendance) / (s.capacity * (broj_utakmica - nema_podatak_o_poseti))) * 100.0, 2) AS popunjenost_na_domacim_utakmicama
 FROM club c
 JOIN matches m ON m.home_team_id = c.team_id
