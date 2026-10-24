@@ -10,6 +10,7 @@
  - Folder Domaci 2.2 contains homework from class that is inisde Folder: Nedelja 01 - cas 04 
  - Folder Domaci 3.1 contains homework from class that is inisde Folder: Nedelja 02 - cas 05   
  - Folder Domaci 3.2 contains homework from class that is inisde Folder: Nedelja 02 - cas 06   
+ - Folder Domaci 4.1 contains homework from class that is inisde Folder: Nedelja 02 - cas 07  
 
 ## Folder Predavanja
 This folder contains all work and exercises from live clases.
@@ -34,14 +35,20 @@ This folder contains all work and exercises from live clases.
         - Modify String in SQL (length, upper and lower letters, upper first letter, CONCAT, search Partial part of string)
         - SQL operations with date, time, month, hour, day
 #### Folder Nedelja 02 - cas 05  
-    Topics that was mentioned in Folder Nedelja 01 - cas 04 are:
+    Topics that was mentioned in Folder Nedelja 02 - cas 05 are:
         - Aggregation functions commands (from many lines to one): GROUP BY, HAVING, COUNT(), SUM(), AVG(), MIN(), MAX()
         - How NULL effects or results when we use Aggregation functions
         - Conditional aggregation: CASE WHEN condition_1 THEN value_1 ELSE deffault_value END
         - Common mistakes to avoid when using aggregation functions
 #### Folder Nedelja 02 - cas 06  
-    Topics that was mentioned in Folder Nedelja 01 - cas 04 are:
+    Topics that was mentioned in Folder Nedelja 02 - cas 06 are:
         - Type of SQL keys: Primary, Foreign, Complex
         - Type of table joins in SQL: INNER, LEFT, RIGHT, FULL and CROSS
         - Difference in using ON and WHERE condtions
         - Common mistakes when using JOINs
+#### Folder Nedelja 02 - cas 07  
+    Topics that was mentioned in Folder Nedelja 02 - cas 07 are:
+        - Recognizing and multiplying lines with JOIN command
+        - Split querys using WITH (CTE) methods
+        - USING sub querys with SQL commands: WHERE, SELECT, IN, EXISTS
+        - Joinging results with UNION and UNION ALL
