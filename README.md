@@ -53,3 +53,6 @@ This folder contains all work and exercises from live clases.
         - Split querys using WITH (CTE) methods
         - USING sub querys with SQL commands: WHERE, SELECT, IN, EXISTS
         - Joinging results with UNION and UNION ALL
+#### Folder Nedelja 02 - cas 08  
+    Topics that was mentioned in Folder Nedelja 02 - cas 08 are:
+        - Exercises of past commands and rules for SQL and preparation for test
