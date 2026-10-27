@@ -12,6 +12,7 @@
  - Folder Domaci 3.2 contains homework from class that is inisde Folder: Nedelja 02 - cas 06   
  - Folder Domaci 4.1 contains homework from class that is inisde Folder: Nedelja 02 - cas 07  
  - Folder Domaci 4.2 contains homework with report for team Lakeside Rangers for season 2024/25  
+ - Folder Domaci 5.1 contains homework from class that is inisde Folder: Nedelja 03 - cas 09  
 
 ## Folder Predavanja
 This folder contains all work and exercises from live clases.
@@ -56,3 +57,9 @@ This folder contains all work and exercises from live clases.
 #### Folder Nedelja 02 - cas 08  
     Topics that was mentioned in Folder Nedelja 02 - cas 08 are:
         - Exercises of past commands and rules for SQL and preparation for test
+#### Folder Nedelja 03 - cas 09  
+    Topics that was mentioned in Folder Nedelja 03 - cas 09 are:
+        - Window functions, comparing with group with out losing rows
+        - Skeleton of window function and explained: OVER(PARTITION BY ... ORDER BY) 
+        - Three ways of ranging with window functions: ROW_NUMBER(), RANK(), DENSE_RANK()
+        - SQL functions with SUM(), COUNT() and AVG() with windows functions OVER()
