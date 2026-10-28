@@ -26,5 +26,5 @@ SELECT
     COUNT_IF(result ='W' AND sledeci_mec = 'W') AS pobeda_posle_pobede
 FROM pobede;
 -- Resenje:
--- broj_meceva	    pobeda_posle_pobede
--- 553	            221
+-- broj_meceva	     pobeda_posle_pobede
+-- 553	             221
