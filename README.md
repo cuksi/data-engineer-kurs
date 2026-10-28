@@ -64,3 +64,9 @@ This folder contains all work and exercises from live clases.
         - Skeleton of window function and explained: OVER(PARTITION BY ... ORDER BY) 
         - Three ways of ranging with window functions: ROW_NUMBER(), RANK(), DENSE_RANK()
         - SQL functions with SUM(), COUNT() and AVG() with windows functions OVER()
+#### Folder Nedelja 03 - cas 10  
+    Topics that was mentioned in Folder Nedelja 03 - cas 10 are:
+        - Continue with learning window functions
+        - More advance uses of LAG() AND LEAD() with window functions
+        - Window frame clauses ROWS BETWEEN and bound
+        - Frame specifiers / Boundaries: CURRENT ROW, UNBOUNDED PRECEDING, UNBOUNDED FOLLOWING, N PRECEDING / N FOLLOWING
