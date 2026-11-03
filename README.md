@@ -5,19 +5,19 @@
  This folder contains my homework from course IT Bootcamp Data Engineer 2026  
  In folder SQL are all homeworks connect with SQL
  ### Github homework
- - Folder Domaci 1.2 contains homework from Github fundamentals class that is inisde Folder: Nedelja 01 - cas 02  
+     - Folder Domaci 1.2 contains homework from Github fundamentals class that is inisde Folder: Nedelja 01 - cas 02  
  ### SQL homework
- - Folder Domaci 2.1 contains homework from class that is inisde Folder: Nedelja 01 - cas 03  
- - Folder Domaci 2.2 contains homework from class that is inisde Folder: Nedelja 01 - cas 04 
- - Folder Domaci 3.1 contains homework from class that is inisde Folder: Nedelja 02 - cas 05   
- - Folder Domaci 3.2 contains homework from class that is inisde Folder: Nedelja 02 - cas 06   
- - Folder Domaci 4.1 contains homework from class that is inisde Folder: Nedelja 02 - cas 07  
- - Folder Domaci 4.2 contains homework with report for team Lakeside Rangers for season 2024/25  
- - Folder Domaci 5.1 contains homework from class that is inisde Folder: Nedelja 03 - cas 09  
- - Folder Domaci 5.2 contains homework from class that is inisde Folder: Nedelja 03 - cas 10  
- - Folder Domaci 6.1 contains homework from class that is inisde Folder: Nedelja 03 - cas 11  
+     - Folder Domaci 2.1 contains homework from class that is inisde Folder: Nedelja 01 - cas 03  
+     - Folder Domaci 2.2 contains homework from class that is inisde Folder: Nedelja 01 - cas 04 
+     - Folder Domaci 3.1 contains homework from class that is inisde Folder: Nedelja 02 - cas 05   
+     - Folder Domaci 3.2 contains homework from class that is inisde Folder: Nedelja 02 - cas 06   
+     - Folder Domaci 4.1 contains homework from class that is inisde Folder: Nedelja 02 - cas 07  
+     - Folder Domaci 4.2 contains homework with report for team Lakeside Rangers for season 2024/25  
+     - Folder Domaci 5.1 contains homework from class that is inisde Folder: Nedelja 03 - cas 09  
+     - Folder Domaci 5.2 contains homework from class that is inisde Folder: Nedelja 03 - cas 10  
+     - Folder Domaci 6.1 contains homework from class that is inisde Folder: Nedelja 03 - cas 11  
   ### Python homework
- - Folder Domaci 7.1 contains homework from class that is inisde Folder: Nedelja 04 - cas 12  
+     - Folder Domaci 7.1 contains homework from class that is inisde Folder: Nedelja 04 - cas 13  
 
 ## Folder Predavanja
 This folder contains all work and exercises from live clases.
@@ -75,3 +75,15 @@ This folder contains all work and exercises from live clases.
         - Window frame clauses ROWS BETWEEN and bound
         - Frame specifiers / Boundaries: CURRENT ROW, UNBOUNDED PRECEDING, UNBOUNDED FOLLOWING, N PRECEDING / N FOLLOWING
 #### Folder Nedelja 03 - cas 11  
+    Topics that was mentioned in Folder Nedelja 03 - cas 11 are:
+            - Table history an restoring to previous versions (examples where done in databricks environment)
+            - Manipulaton with table (CREATE, INSERT, UPDATE, ALTER, DELETE)
+            - Foundation of star schema, creating dimension and fact tables, querying star scema
+### Python part
+    Topics that was mentioned in Folder Nedelja 04 - cas 13 are:
+            - Data types in Python: Integer, Float, String, Boolean, List
+            - Operators and bas arithmetic operations in Python
+            - If, elif and else condtions
+            - f string (dyanamic formating of string)
+            - For and While loop
+            - range() function in Python
