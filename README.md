@@ -80,6 +80,7 @@ This folder contains all work and exercises from live clases.
             - Manipulaton with table (CREATE, INSERT, UPDATE, ALTER, DELETE)
             - Foundation of star schema, creating dimension and fact tables, querying star scema
 ### Python part
+#### Folder Nedelja 04 - cas 13  
     Topics that was mentioned in Folder Nedelja 04 - cas 13 are:
             - Data types in Python: Integer, Float, String, Boolean, List
             - Operators and bas arithmetic operations in Python
