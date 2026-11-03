@@ -14,7 +14,5 @@ for i in range(0, 24, 1):
         print("veče")
     else:
         print("noć")
-
-    # print(f"sat {sat}")   # ostavljena linika koda za proveru
     
     sat += 1

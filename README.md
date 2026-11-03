@@ -15,6 +15,9 @@
  - Folder Domaci 4.2 contains homework with report for team Lakeside Rangers for season 2024/25  
  - Folder Domaci 5.1 contains homework from class that is inisde Folder: Nedelja 03 - cas 09  
  - Folder Domaci 5.2 contains homework from class that is inisde Folder: Nedelja 03 - cas 10  
+ - Folder Domaci 6.1 contains homework from class that is inisde Folder: Nedelja 03 - cas 11  
+  ### Python homework
+ - Folder Domaci 7.1 contains homework from class that is inisde Folder: Nedelja 04 - cas 12  
 
 ## Folder Predavanja
 This folder contains all work and exercises from live clases.
@@ -71,3 +74,4 @@ This folder contains all work and exercises from live clases.
         - More advance uses of LAG() AND LEAD() with window functions
         - Window frame clauses ROWS BETWEEN and bound
         - Frame specifiers / Boundaries: CURRENT ROW, UNBOUNDED PRECEDING, UNBOUNDED FOLLOWING, N PRECEDING / N FOLLOWING
+#### Folder Nedelja 03 - cas 11  
