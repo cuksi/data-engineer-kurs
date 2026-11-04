@@ -18,6 +18,7 @@
      - Folder Domaci 6.1 contains homework from class that is inisde Folder: Nedelja 03 - cas 11  
   ### Python homework
      - Folder Domaci 7.1 contains homework from class that is inisde Folder: Nedelja 04 - cas 13  
+     - Folder Domaci 7.2 contains homework from class that is inisde Folder: Nedelja 04 - cas 14  
 
 ## Folder Predavanja
 This folder contains all work and exercises from live clases.
@@ -88,3 +89,8 @@ This folder contains all work and exercises from live clases.
             - f string (dyanamic formating of string)
             - For and While loop
             - range() function in Python
+#### Folder Nedelja 04 - cas 14  
+    Topics that was mentioned in Folder Nedelja 04 - cas 14 are:
+            - Manipultaion with lists and tuples
+            - Creating functions in Python
+            - Importing Python modules, clases and functions from other modules and clases
