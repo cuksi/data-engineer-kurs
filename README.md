@@ -95,3 +95,13 @@ This folder contains all work and exercises from live clases.
             - Manipultaion with lists and tuples
             - Creating functions in Python
             - Importing Python modules, clases and functions from other modules and clases
+#### Folder Nedelja 04 - cas 15  
+    Topics that was mentioned in Folder Nedelja 04 - cas 15 are:
+            - Working with sets
+            - Working with dictionary
+            - Manipulation with strings (split(), join(), strip()...)
+#### Folder Nedelja 04 - cas 16  
+    Topics that was mentioned in Folder Nedelja 04 - cas 16 are:
+            - List comprehension
+            - Reading and writing csv files and manipulation with data
+            - Reading and writing json files and manipulation with data
