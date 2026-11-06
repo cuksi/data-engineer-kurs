@@ -19,6 +19,7 @@
   ### Python homework
      - Folder Domaci 7.1 contains homework from class that is inisde Folder: Nedelja 04 - cas 13  
      - Folder Domaci 7.2 contains homework from class that is inisde Folder: Nedelja 04 - cas 14  
+     - Folder Domaci 8.1 contains homework from class that is inisde Folder: Nedelja 04 - cas 15  
 
 ## Folder Predavanja
 This folder contains all work and exercises from live clases.
