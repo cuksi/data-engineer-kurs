@@ -4,7 +4,6 @@ def celzijus_u_farenhajt(temp):
     return temp * 1.8 + 32
 
 print(f"30 stepeni po Celzijusu je {celzijus_u_farenhajt(30)} po Farenhajtu")
-
 # 2. Napisati program koji za uneti redni broj dana u nedelji (od 1 do 7) ispisuje naziv tog dana (ponedeljak - nedelja). Ukoliko je unet broj koji nije izmedju 1 i 7, ispisati Pogresan unos.
 def dan_u_nedelji(dan):
     if dan == 1:
@@ -27,18 +26,34 @@ def dan_u_nedelji(dan):
 dan_u_nedelji(1)    # test
 dan_u_nedelji(4)    # test
 dan_u_nedelji(8)    # test
-
 # 3. Napisati program koji racuna najveci negativni element u listi.
 lista_negativni = [-3, -5, -1, -7, 16]  # za test
+# moje resenje ima sitnu gresku
 def negativni(lista):
-    target = lista[0]
+    target = None
     for i in lista:
+        target = lista[0]
         if target < i and i < 0:
             target = i
-    return target
+        return target
 
 print(negativni(lista_negativni))    # test
 
+# Profino resenje:
+lista_negativni2 = [5, -12, 8, -3, -20]
+
+def negativni2(lista):
+    najveci_negativni_broj = None
+    for broj in lista_negativni2:
+        if broj < 0:
+            if najveci_negativni_broj is None or broj > najveci_negativni_broj:
+                najveci_negativni_broj = broj
+
+    return najveci_negativni_broj
+
+
+print(negativni(lista_negativni2))
+print(negativni2(lista_negativni2))
 # 4. Napisati program koji racuna srednju vrednost i standardnu devijaciju liste razlomljenih brojeva. Srednja vrednost i standardna devijacija racunaju se po formulama
 from math import sqrt
 
@@ -60,7 +75,6 @@ def standardna_devijacija_liste(lista):
 
 print(srednja_vrednost(lista_srednji_broj))    # test
 print(standardna_devijacija_liste(lista_srednji_broj))    # test
-
 # 5. Napisati program koji racuna broj parnih elemenata date liste
 test = [1, 2, 3, 4, 5, 6, 7]    # za test
 
@@ -73,7 +87,6 @@ def parni(lista_parni):
     return count
 
 print(parni(test))    # test
-
 # 6. Napisati program koji racuna sume elemenata liste celih brojeva koji su deljivi sa 2 odnosno sa 3. Dve sume jedna za deljive sa dva a druge za deljive sa tri
 lista3 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]    # za test
 
@@ -83,12 +96,11 @@ def sume(lista):
     for i in lista:
         if i % 2 == 0:
             suma2 += i
-        elif i % 3 == 0:
+        if i % 3 == 0:
             suma3 += i
     return (suma2, suma3)
 
 print(sume(lista3))    # test
-
 # 7. Napisati program koji za dati niz karaktera (string) koji se sastoji samo od cifara 0-9 racuna koliko puta se javlja svaka cifra.
 lista4 = "0122333444456677788889"   # za test
 
