@@ -21,6 +21,8 @@
      - Folder Domaci 7.2 contains homework from class that is inisde Folder: Nedelja 04 - cas 14  
      - Folder Domaci 8.1 contains homework from class that is inisde Folder: Nedelja 04 - cas 15  
      - Folder Domaci 8.2 contains homework from class that is inisde Folder: Nedelja 04 - cas 16  
+     - Folder Domaci 9.1 contains homework from class that is inisde Folder: Nedelja 05 - cas 17  
+     - Folder Domaci 9.2 contains homework from class that is inisde Folder: Nedelja 05 - cas 18  
 
 ## Folder Predavanja
 This folder contains all work and exercises from live clases.
@@ -106,3 +108,13 @@ This folder contains all work and exercises from live clases.
             - List comprehension
             - Reading and writing csv files and manipulation with data
             - Reading and writing json files and manipulation with data
+#### Folder Nedelja 05 - cas 17  
+    Topics that was mentioned in Folder Nedelja 05 - cas 17 are:
+            - Some type errors in Python
+            - Try and Except blocks in Python
+            - Data pipeline
+#### Folder Nedelja 05 - cas 18  
+    Topics that was mentioned in Folder Nedelja 05 - cas 18 are:
+            - Object, Class, methods and arguments in Python (Basics of OOP)
+            - Special methods in Python __init__ and __repr__
+            - Some errors with Classes in Python
