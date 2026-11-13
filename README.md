@@ -118,3 +118,7 @@ This folder contains all work and exercises from live clases.
             - Object, Class, methods and arguments in Python (Basics of OOP)
             - Special methods in Python __init__ and __repr__
             - Some errors with Classes in Python
+#### Folder Nedelja 05 - cas 19  
+    Topics that was mentioned in Folder Nedelja 05 - cas 19 are:
+            - Python module Pandas  
+            - Manipulation with data with Pandas  
