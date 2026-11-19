@@ -89,7 +89,7 @@ This folder contains all work and exercises from live clases.
             - Foundation of star schema, creating dimension and fact tables, querying star scema
 #### Folder Nedelja 03 - cas 12  
     Topics that was mentioned in Folder Nedelja 03 - cas 12 are:
-            - SQL Gate 1 test (https://github.com/cuksi/it-bootcamp-sql-test)
+            - SQL Gate 1 test ( https://github.com/cuksi/it-bootcamp-sql-test )
 ### Python part
 #### Folder Nedelja 04 - cas 13  
     Topics that was mentioned in Folder Nedelja 04 - cas 13 are:
@@ -149,4 +149,4 @@ This folder contains all work and exercises from live clases.
             - Practice for ETL Pipeline test
 #### Folder Nedelja 06 - cas 23  
     Topics that was mentioned in Folder Nedelja 06 - cas 23 are:
-            - ETL Pipeline test (https://github.com/cuksi/nss-pipeline)
+            - ETL Pipeline test ( https://github.com/cuksi/nss-pipeline )
