@@ -23,6 +23,9 @@
      - Folder Domaci 8.2 contains homework from class that is inisde Folder: Nedelja 04 - cas 16  
      - Folder Domaci 9.1 contains homework from class that is inisde Folder: Nedelja 05 - cas 17  
      - Folder Domaci 9.2 contains homework from class that is inisde Folder: Nedelja 05 - cas 18  
+     - Folder Domaci 10.1 contains homework from class that is inisde Folder: Nedelja 05 - cas 19 
+     - Folder Domaci 10.2 contains homework from class that is inisde Folder: Nedelja 06 - cas 20 
+     - Folder Domaci 11.1 contains homework from class that is inisde Folder: Nedelja 06 - cas 21 
 
 ## Folder Predavanja
 This folder contains all work and exercises from live clases.
