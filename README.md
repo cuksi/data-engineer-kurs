@@ -87,6 +87,9 @@ This folder contains all work and exercises from live clases.
             - Table history an restoring to previous versions (examples where done in databricks environment)
             - Manipulaton with table (CREATE, INSERT, UPDATE, ALTER, DELETE)
             - Foundation of star schema, creating dimension and fact tables, querying star scema
+#### Folder Nedelja 03 - cas 12  
+    Topics that was mentioned in Folder Nedelja 03 - cas 12 are:
+            - SQL Gate 1 test (https://github.com/cuksi/it-bootcamp-sql-test)
 ### Python part
 #### Folder Nedelja 04 - cas 13  
     Topics that was mentioned in Folder Nedelja 04 - cas 13 are:
@@ -125,3 +128,25 @@ This folder contains all work and exercises from live clases.
     Topics that was mentioned in Folder Nedelja 05 - cas 19 are:
             - Python module Pandas  
             - Manipulation with data with Pandas  
+#### Folder Nedelja 06 - cas 20  
+    Topics that was mentioned in Folder Nedelja 06 - cas 20 are:
+            - Python module Pandas new operations:
+                - GroupBy and Aggregation functions, with single function
+                - GroupBy and Aggregation functions, with multiple different functions and creating new columns
+                - GroupBy with multiple columns
+                - Merge tables, when key column have same and different name
+                - Pandas Merge and SQL connections 
+            - NumPy and basic operations:
+                - Creating and basic info about matrix (ndim, size, shape)
+                - Basic operations with matrix (mathematical operations)
+#### Folder Nedelja 06 - cas 21  
+    Topics that was mentioned in Folder Nedelja 06 - cas 21 are:
+            - API with Python and requests module
+            - HTTP request methods (GET, PUT, POST, UPDATE)
+            - Getting data over API and Pandas manipulation over data
+#### Folder Nedelja 06 - cas 22  
+    Topics that was mentioned in Folder Nedelja 06 - cas 22 are:
+            - Practice for ETL Pipeline test
+#### Folder Nedelja 06 - cas 23  
+    Topics that was mentioned in Folder Nedelja 06 - cas 23 are:
+            - ETL Pipeline test (https://github.com/cuksi/nss-pipeline)
